@@ -1,4 +1,5 @@
 class Calculator:
+
     def addition(self,a, b):
         result = a + b
         return result
@@ -6,6 +7,7 @@ class Calculator:
     def substraction(self,a, b):
         result = a - b
         return result
+
     
     def division(self, a, b):
         
@@ -15,3 +17,6 @@ class Calculator:
             
             print("Erreur : Division par zéro !")
             return None
+    
+
+
