@@ -9,8 +9,14 @@ class Calculator:
         return result
 
     
+    def division(self, a, b):
+        
+        if b != 0:
+            return a / b
+        else:
+            
+            print("Erreur : Division par zéro !")
+            return None
+    
 
-    def addition(self, a, b):
-        result = a + b
-        return result
 
