@@ -1,4 +1,5 @@
 class Calculator:
+
     def addition(self,a, b):
         result = a + b
         return result
@@ -8,3 +9,8 @@ class Calculator:
         return result
 
     
+
+    def addition(self, a, b):
+        result = a + b
+        return result
+
